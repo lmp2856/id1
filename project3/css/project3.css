@@ -1,0 +1,70 @@
+body {
+    background-color: #961B1E;
+}
+
+header {
+    color: #FFFFFB;
+}
+
+@font-face {
+    font-family: 'OstrichInline';
+    src: url('/Users/Lauren/Desktop/id1/project3/fonts/ostrich-sans-inline-regular.eot');
+    src: url('/Users/Lauren/Desktop/id1/project3/fonts/ostrich-sans-inline-regular.svg#OstrichInline') format('svg');
+    src: url('/Users/Lauren/Desktop/id1/project3/fonts/ostrich-sans-inline-regular.eot?#iefix') format('embedded-opentype');
+    src: url('/Users/Lauren/Desktop/id1/project3/fonts/ostrich-sans-inline-regular.woff') format('woff');
+    src: url('/Users/Lauren/Desktop/id1/project3/fonts/ostrich-sans-inline-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h4 {;
+    font-family: 'OstrichInline';
+    font-size: 150px;
+    text-align: center;
+    font-style: normal;
+    color: #FFFFFB;
+}
+
+#whatisfactoryfarming {
+    background-color: #AEA8A3;
+    height: 700px;
+}
+
+#whatcanido {
+    background-color: #AEA8A3;
+}
+
+p {
+    margin: 10px 100px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: left;
+    color: #FEF1E7;
+}
+
+img#animals {
+    width: 25%;
+    float: left;
+}
+
+img#earth {
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+img#humans {
+    width: 25%;
+    float: right;
+}
+
+img#whatcanido {
+    width: 50%;
+    float: right;
+}
+/* #961B1E - Blood red
+   #AEA8A3 - Warm Steel
+   #FEF1E7 - Flesh
+   #FFFFFB - Egg White */ 

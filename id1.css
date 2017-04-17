@@ -1,0 +1,147 @@
+/* DESKTOP LAYOUT */
+body {
+    display: inline-block;
+    margin: 0px;
+    background-color: #e0dcdf;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 100px;
+    padding: 50px;
+    background-color: #0c080b;
+    color: #7e737b;
+}
+
+p {
+    display: inline-block;
+    margin-left: 100px;
+    color: #7e737b;
+}
+
+ p#footer {
+    margin-left: 1000px;
+    color: #7e737b;
+}
+
+h2 {
+    display: inline-block;
+    margin-left: 100px;
+    font-size: 40px;
+    color: #564b53;
+}
+
+h3 {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: -30px;
+    font-size: 40px;
+    color: #564b53;
+}
+
+h4 {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: -3px;
+    font-size: 30px;
+    color: #564b53;
+}
+
+img#banner {
+    width: 100%;
+}
+
+section {
+    margin-right: 25px;
+    padding: 25px;
+    background-color: #0c080b;
+    color: #7e737b;
+}
+
+section#aboutme {
+    display: inline-block;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: -200px;
+}
+
+section#exercises {
+    display: inline-block;
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+section#projects {
+    display: inline-block;
+    float: right;
+    width: 35%;
+    margin-top: 50px;
+    margin-right: 65px;
+}
+
+footer{
+    width: 100%;
+    position: static;
+    margin-right: 200px;
+    margin-top: 50px;
+    background-color: #0c080b;
+    color: #7e737b;
+}
+
+a:link {
+    color: #564b53;
+}
+
+a:visited {
+    color: #7e737b;
+}
+
+a:hover {
+    color: #e0dcdf;
+}
+
+a:active {
+    color: #564b53;
+}
+
+/* MOBILE LAYOUT */
+
+@media only screen and (max-width:500px) {
+    body {
+        display: inline-block;
+		width: auto;
+        margin: auto;
+    }
+    
+    section, section#aboutme, section#exercises {
+        display: inline-block;
+        width: auto;
+    }
+   
+    section#projects {
+        display: inline-block;
+        float: none;
+        clear: right;
+    }
+    
+    img {
+        display: inline-block;
+        width: auto;
+    }
+
+
+    header {
+        display: inline-block;
+        width: auto;
+    }
+
+    p {
+        display: inline-block; 
+        width: auto;   
+    }
+}

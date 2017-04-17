@@ -1,0 +1,32 @@
+body {
+    background-color:lightgrey;
+}
+
+h1 {
+    display:center;
+    margin:10px 0px;
+    font-family: sans-serif;
+    text-align:left;
+    text-decoration: underline;
+}
+
+h2 {
+    display:center;
+    margin:10px 0px;
+    margin-bottom:50px;
+    font-family: sans-serif;
+    text-align:left;
+}
+
+img {
+    width: 50%;
+    display:block;
+}
+
+p   {
+    display:block;
+    margin:50px 0px;
+    font-size: 100%;
+    font-family: sans-serif;
+    text-align:left;
+}

@@ -1,0 +1,90 @@
+body {
+    background-image:url(../images/background1.png);
+    background-size:contain;
+}
+
+h4 {
+    display:center;
+    text-align:center;
+    font-family:'Share Tech', sans-serif;
+    font-size:20px;
+    color:#b21f24;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+img#banner {
+    width:85%;
+    display:block;
+    margin:auto;
+    margin-bottom:70px;
+}
+
+img#divider {
+    width:50%;
+    display:block;
+    margin:auto;
+}
+
+img#band {
+    width:50%;
+    display:block;
+    margin:auto;
+}
+
+img#albums {
+    width:50%;
+    display:block;
+    margin:auto;
+    margin-bottom:95px;
+}
+
+img#scream {
+    width:60%;
+    display:block;
+    margin:auto;
+    margin-bottom:95px;
+}
+
+img#book {
+    width:70%;
+    display:block;
+    margin:auto;
+    margin-top:5%;
+}
+
+img#drawing {
+    width:20%;
+    display:block;
+    margin:auto;
+    margin-top:100px;
+}
+
+p {
+    display:center;
+    margin:auto;
+    margin-left:20%%;
+    margin-right:20%;
+    padding:5%;
+    text-align:center;
+    color:white;
+    font-family: 'Economica', sans-serif;
+    font-size:155%;
+    letter-spacing:1.5px;
+}
+
+blockquote {
+    width:55%;
+    display:center;
+    margin:auto;
+    margin-left:20%;
+    margin-bottom:60px;
+    padding:10px;
+    text-align:center;
+    font-size:300%;
+    color:#b21f24;
+    font-family: 'Nothing You Could Do', cursive;
+}
