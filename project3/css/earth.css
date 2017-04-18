@@ -1,69 +1,117 @@
 body {
     background-color: #961B1E;
-}
-
-header {
-    color: #FFFFFB;
+    padding-bottom: 150px;
+    padding-top: 15px;
 }
 
 @font-face {
     font-family: 'OstrichInline';
-    src: url('/Users/Lauren/Desktop/id1/project3/fonts/ostrich-sans-inline-regular.eot');
-    src: url('/Users/Lauren/Desktop/id1/project3/fonts/ostrich-sans-inline-regular.svg#OstrichInline') format('svg');
-    src: url('/Users/Lauren/Desktop/id1/project3/fonts/ostrich-sans-inline-regular.eot?#iefix') format('embedded-opentype');
-    src: url('/Users/Lauren/Desktop/id1/project3/fonts/ostrich-sans-inline-regular.woff') format('woff');
-    src: url('/Users/Lauren/Desktop/id1/project3/fonts/ostrich-sans-inline-regular.ttf') format('truetype');
+    src: url('/Users/Lauren/Desktop/id1/id1/project3/fonts/ostrich-sans-inline-regular.eot');
+    src: url('/Users/Lauren/Desktop/id1/id1/project3/fonts/ostrich-sans-inline-regular.svg#OstrichInline') format('svg');
+    src: url('/Users/Lauren/Desktop/id1/id1/project3/fonts/ostrich-sans-inline-regular.eot?#iefix') format('embedded-opentype');
+    src: url('/Users/Lauren/Desktop/id1/id1/project3/fonts/ostrich-sans-inline-regular.woff') format('woff');
+    src: url('/Users/Lauren/Desktop/id1/id1/project3/fonts/ostrich-sans-inline-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-h4 {;
+header {
+    width: 100%;
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+    line-height: 225%;
     font-family: 'OstrichInline';
-    font-size: 175px;
+    font-size: 125px;
     text-align: center;
-    font-style: normal;
     color: #FFFFFB;
 }
 
-#whatisfactoryfarming {
-    background-color: #AEA8A3;
-    height: 700px;
-}
-
-#whatcanido {
-    background-color: #AEA8A3;
-}
-
 p {
-    margin: 10px 100px;
-    margin-bottom: 25px;
+    margin: 25px 150px;
+    padding: 15px;
+    line-height: 175%;
     font-family: 'Arvo', serif;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     text-align: justify;
     text-align-last: left;
+    color: #FFFFFB;
+}
+
+p#intro{
+    font-size: 33px;
+    margin-bottom: 100px;
+    padding: 100px;
+    background-color: #AEA8A3;
+    color: #FEF1E7;
+}
+/* images */
+img {
+    width: 40%;
+    margin: 25px 150px;
+}
+
+img#earth {
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+img#lagoon, #deforestation {
+    float: right;
+    margin-left: 75px;
+}
+
+img#feedlots {
+    float: left;
+    margin-right: 75px;
+}
+/* navigation */
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #AEA8A3;
+}
+
+.navigation li {
+    display: inline;
+    padding: 10px;
+    color: #FFFFFB;
+    border-right: 1px solid #FFFFFB;
+}
+
+.navigation li:last-child {
+    border-right: none;
+}
+
+.navigation li a {
+    display: inline-block;
+    padding: 15px 45px;
+    text-decoration: none;
     color: #FEF1E7;
 }
 
-img#homebutton {
-    width: 26%;
-    float: left;
+.navigation li a:hover {
+    background-color: #961B1E;
 }
 
-img#animalsbutton {
-    width: 19%;
-    margin-left: 30px;
+.navigation li a:visited {
+    color: #FFFFFB;
 }
 
-img#humansbutton {
-    width: 19%;
-    margin-left: 30px;
+nav {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: #961B1E;
+    font-size: 65px;
+    font-family: 'OstrichInline';
+    color: #FFFFFB;
 }
 
-img#whatcanidobutton {
-    width: 30%;
-    float: right;
-}
 /* #961B1E - Blood red
    #AEA8A3 - Warm Steel
    #FEF1E7 - Flesh
