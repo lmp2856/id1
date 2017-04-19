@@ -18,12 +18,13 @@ body {
 header {
     width: 100%;
     margin-bottom: 100px;
-    padding-bottom: 20px;
-    line-height: 175%;
+    padding-bottom: 120px;
+    line-height: 100%;
     font-family: 'OstrichInline';
     font-size: 125px;
     text-align: center;
     color: #FFFFFB;
+
 }
 
 p {

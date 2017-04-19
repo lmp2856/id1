@@ -16,8 +16,6 @@ body {
 
 header {
     width: 100%;
-    margin-bottom: 100px;
-    padding-bottom: 20px;
     line-height: 225%;
     font-family: 'OstrichInline';
     font-size: 125px;
@@ -27,7 +25,7 @@ header {
 
 header#effects {
     margin-top: 150px;
-    margin-bottom: -100px;
+    margin-bottom: 150px;
 }
 
 header#whatcanido {
@@ -46,7 +44,7 @@ p {
     padding: 15px;
     line-height: 175%;
     font-family: 'Arvo', serif;
-    font-size: 27px;
+    font-size: 20px;
     font-style: normal;
     text-align: justify;
     text-align-last: left;
@@ -55,15 +53,10 @@ p {
 
 p#intro{
     font-size: 33px;
-    margin-top: -75px;
     margin-bottom: 100px;
     padding: 100px;
     background-color: #AEA8A3;
     color: #FEF1E7;
-}
-
-strong {
-    font-size: 33px;
 }
 
  a:hover img {
