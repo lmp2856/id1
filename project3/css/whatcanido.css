@@ -136,7 +136,7 @@ iframe {
 }
 
 .navigation li a:hover {
-    background-color: #AEA8A3;
+    background-color: #961B1E;
 }
 
 .navigation li a:visited {
@@ -158,3 +158,33 @@ nav {
    #AEA8A3 - Warm Steel
    #FEF1E7 - Flesh
    #FFFFFB - Egg White */ 
+
+/************* MOBILE *************/
+
+@media only screen and (max-device-width: 480px) {
+    
+    body {
+        width: 100%;
+    }
+    
+    header {
+        width: 85%;
+        line-height: 80%;
+    }
+    
+    header#effects, #whatcanido {
+        width: 80%;
+    }
+    
+    p#intro {
+        font-size: 85%;
+    }
+    
+    p {
+        font-size: 85%;
+    } 
+    
+    img {
+        width: 85%;
+    }
+}
