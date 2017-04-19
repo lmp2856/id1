@@ -1,7 +1,6 @@
 body {
     background-color: #961B1E;
-    padding-bottom: 150px;
-    padding-top: 15px;
+    padding-bottom: 125px;
 }
 
 @font-face {
@@ -17,9 +16,8 @@ body {
 
 header {
     width: 100%;
-    margin-bottom: 100px;
-    padding-bottom: 120px;
-    line-height: 100%;
+    margin-top: -20px;
+    line-height: 225%;
     font-family: 'OstrichInline';
     font-size: 125px;
     text-align: center;
@@ -39,7 +37,7 @@ p {
     color: #FFFFFB;
 }
 
-p#intro{
+p#intro {
     font-size: 33px;
     margin-bottom: 100px;
     padding: 100px;
@@ -47,15 +45,45 @@ p#intro{
     color: #FEF1E7;
 }
 
-ul#links {
+.links .reg ul {
     list-style-type: circle;
+}
+
+.links li {
+    margin: 25px 350px;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: left;
+    color: #FFFFFB;
+}
+
+.links li a {
+    text-decoration: underline;
+    color: #FEF1E7;
+}
+
+.links li a:hover {
     background-color: #AEA8A3;
 }
 
-li#links {
-    
+.links li a:visited {
+    color: #FEF1E7;
 }
+
+.reg li {
+    margin: 25px 350px;
+    font-family: 'Arvo', serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: justify;
+    text-align-last: left;
+    color: #FFFFFB;
+}
+
 /* images */
+
 img {
     width: 40%;
     margin: 25px 150px;
@@ -67,16 +95,20 @@ img#whatcanido {
     margin: auto;
 }
 
-img#carcinogenchart {
-    float: right;
-    margin-left: 75px;
+img#logos, #veganfood {
+    display: block;
+    margin: auto;
+    padding: 35px 0px;
 }
 
-img#antibioticchart {
-    float: left;
-    margin-right: 75px;
+iframe {
+    display: block;
+    margin: auto;
+    padding: 75px 0px;
 }
+
 /* navigation */
+
 .navigation {
     list-style-type: none;
     margin: 0;
@@ -100,11 +132,11 @@ img#antibioticchart {
     display: inline-block;
     padding: 15px 45px;
     text-decoration: none;
-    color: #FEF1E7;
+    color: #FFFFFB;
 }
 
 .navigation li a:hover {
-    background-color: #961B1E;
+    background-color: #AEA8A3;
 }
 
 .navigation li a:visited {
@@ -112,10 +144,10 @@ img#antibioticchart {
 }
 
 nav {
+    width: 100%;
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 100%;
     background-color: #961B1E;
     font-size: 65px;
     font-family: 'OstrichInline';

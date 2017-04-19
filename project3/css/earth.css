@@ -1,7 +1,6 @@
 body {
     background-color: #961B1E;
     padding-bottom: 150px;
-    padding-top: 15px;
 }
 
 @font-face {
@@ -17,8 +16,7 @@ body {
 
 header {
     width: 100%;
-    margin-bottom: 100px;
-    padding-bottom: 20px;
+    margin-top: -20px;
     line-height: 225%;
     font-family: 'OstrichInline';
     font-size: 125px;
@@ -38,14 +36,16 @@ p {
     color: #FFFFFB;
 }
 
-p#intro{
+p#intro {
     font-size: 33px;
     margin-bottom: 100px;
     padding: 100px;
     background-color: #AEA8A3;
     color: #FEF1E7;
 }
+
 /* images */
+
 img {
     width: 40%;
     margin: 25px 150px;
@@ -66,7 +66,17 @@ img#feedlots {
     float: left;
     margin-right: 75px;
 }
+
+img#lagoon {
+    padding: 100px 0px 100px 0px;
+}
+
+img#feedlots {
+    padding: 150px 0px 200px 0px;
+}
+
 /* navigation */
+
 .navigation {
     list-style-type: none;
     margin: 0;
@@ -102,10 +112,10 @@ img#feedlots {
 }
 
 nav {
+    width: 100%;
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 100%;
     background-color: #961B1E;
     font-size: 65px;
     font-family: 'OstrichInline';
