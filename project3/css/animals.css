@@ -4,14 +4,8 @@ body {
 }
 
 @font-face {
-    font-family: 'OstrichInline';
-    src: url('/Users/Lauren/Desktop/id1/id1/project3/fonts/ostrich-sans-inline-regular.eot');
-    src: url('/Users/Lauren/Desktop/id1/id1/project3/fonts/ostrich-sans-inline-regular.svg#OstrichInline') format('svg');
-    src: url('/Users/Lauren/Desktop/id1/id1/project3/fonts/ostrich-sans-inline-regular.eot?#iefix') format('embedded-opentype');
-    src: url('/Users/Lauren/Desktop/id1/id1/project3/fonts/ostrich-sans-inline-regular.woff') format('woff');
-    src: url('/Users/Lauren/Desktop/id1/id1/project3/fonts/ostrich-sans-inline-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+    font-family: OstrichInline;
+    src: url(../fonts/ostrich-sans-inline-regular.ttf)
 }
 
 header {
