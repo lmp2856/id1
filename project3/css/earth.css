@@ -130,23 +130,31 @@ nav {
     }
     
     header {
-        width: 85%;
-        line-height: 80%;
-    }
-    
-    header#effects, #whatcanido {
-        width: 80%;
+        line-height: 125%;
     }
     
     p#intro {
         font-size: 85%;
+        margin: 75px;
     }
     
     p {
         font-size: 85%;
+        margin: 75px;
     } 
     
-    img {
+    img#lagoon, #deforestation, #feedlots {
         width: 85%;
+        margin: auto;
+        padding: 50px 75px;
     }
+    
+    img#feedlots {
+        clear: both;
+        margin-left: 75px;
+    }
+    
+    nav {
+        font-size: 100px;
+    } 
 }

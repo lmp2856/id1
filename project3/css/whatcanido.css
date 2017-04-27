@@ -162,23 +162,36 @@ nav {
     }
     
     header {
-        width: 85%;
-        line-height: 80%;
-    }
-    
-    header#effects, #whatcanido {
-        width: 80%;
+        line-height: 125%;
     }
     
     p#intro {
         font-size: 85%;
+        margin: 75px;
     }
     
     p {
         font-size: 85%;
+        margin: 75px;
     } 
     
-    img {
-        width: 85%;
+    .links li {
+        margin: 75px;
+        font-size: 13px;
     }
+    
+    .reg li {
+        margin: 75px;
+        font-size: 13px;
+    }
+    
+    img#logos, #veganfood {
+        width: 85%;
+        margin: auto;
+        padding: 50px 75px;
+    }
+    
+    nav {
+        font-size: 100px;
+    } 
 }

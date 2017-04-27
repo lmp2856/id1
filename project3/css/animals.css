@@ -152,23 +152,33 @@ nav {
     }
     
     header {
-        width: 85%;
-        line-height: 80%;
+        line-height: 125%;
     }
     
-    header#effects, #whatcanido {
-        width: 80%;
+    header#industry {
+        margin: 100px auto;
     }
     
     p#intro {
         font-size: 85%;
+        margin: 75px;
     }
     
     p {
         font-size: 85%;
+        margin: 75px;
     } 
     
     img {
         width: 85%;
+        margin: 75px;
+    }
+    
+    img#pigsmeat, #chickensmeat, #cowsdairy {
+        clear: both;
+    }
+    
+    nav {
+        font-size: 100px;
     }
 }

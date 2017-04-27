@@ -124,23 +124,28 @@ nav {
     }
     
     header {
-        width: 85%;
-        line-height: 80%;
-    }
-    
-    header#effects, #whatcanido {
-        width: 80%;
+        line-height: 125%;
     }
     
     p#intro {
         font-size: 85%;
+        margin: 75px;
     }
     
     p {
         font-size: 85%;
+        margin: 75px;
     } 
     
-    img {
+    img#carcinogenchart, #antibioticchart {
         width: 85%;
+        margin: auto;
+        margin-left: 75px;
+        padding: 50px 75px;
+        clear: both;
     }
+    
+    nav {
+        font-size: 100px;
+    } 
 }
